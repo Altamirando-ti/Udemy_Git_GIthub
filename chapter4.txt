@@ -1,0 +1,1 @@
+Texto criado para fazer um merging do branching second para o main e que seja visualizado no gráfico do insight network do github

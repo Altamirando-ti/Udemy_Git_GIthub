@@ -1,3 +1,5 @@
 Texto escrito para preenchimento do chapter1. Inclui mais essa parte. Teste de leitura.
 
 texto acrescentado após assistir o video 221 sobre branching and merging
+
+texto escrito apenas para aparecer no graph do github no main

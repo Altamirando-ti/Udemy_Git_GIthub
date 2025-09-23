@@ -1,0 +1,43 @@
+------------Terminal Git Bash------------
+git init
+ls
+ls -a
+clear
+touch nomedoarquivo.txt
+pwd (Print Working Directory) - Pasta onde estou
+cd (Change Directory)
+mkdir (Make Directory) - Como criar uma pasta
+mv (Move) - Como mover ou renomear arquivos/pastas
+rm (Remove) - Como apagar arquivos e pastas
+rm nomedoarquivo.txt
+rm -r diretório ou rm -f diretório  //Para apagar uma pasta (e seu conteúdo):
+//Você precisa usar as opções -r (recursivo) e -f (force - força a remoção sem pedir confirmação).
+man comando
+Man Pages (man): Se você esquecer o que um comando faz ou quiser saber todas as suas opções, digite man comando (por exemplo, man ls). Pressione q para sair da página do manual.
+man ls
+
+------------Editor de texto do terminal---------
+:q!	// para sair do editor
+
+
+
+-----------Repositório Local------------
+git status
+git add .   //adicionar no Staging Area
+git rm --cached -r .    //Remover do Staging Area
+git commit -m "Texto explicativo do commit"
+git log // para ver o histórico de commits 
+
+----- outros comandos
+git branch name-of-branch // cria um novo branch "ramificação"
+git branch // visualiza as branches existentes
+git checkout name-of-branch // trocar de branch
+git merge name-of-branch // obs: precisa estar no branch principal que vai receber as modificações
+
+
+-----------Repositório Remoto------------
+git remote add origin <repository-URL-copiar HTTPS do Repositóriod do Github>
+git push -u origin main 	ou 		git push origin main -u
+git clone URL
+
+
